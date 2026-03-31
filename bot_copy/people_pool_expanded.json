@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "purpose": "Expanded synthetic Ethiopian person-data pools for test JSON generation",
+    "notes": [
+      "This file extends people_pool.json with more names, more cities, and more address combinations.",
+      "Keep this synthetic; do not treat it as a real-person database."
+    ],
+    "sources": [
+      {
+        "kind": "admin_boundaries",
+        "name": "HDX Ethiopia Subnational Administrative Boundaries",
+        "url": "https://geo.btaa.org/catalog/cb58fa1f-687d-4cac-81a7-655ab1efb2d0"
+      },
+      {
+        "kind": "settlements",
+        "name": "HDX GRID3 Ethiopia Settlements",
+        "url": "https://geo.btaa.org/catalog/bfa442c2-b902-44f9-bb47-ceeab1532588"
+      },
+      {
+        "kind": "cities",
+        "name": "SimpleMaps Ethiopia Cities",
+        "url": "https://simplemaps.com/data/et-cities"
+      },
+      {
+        "kind": "name_reference",
+        "name": "Ethiowebs Ethiopian Names",
+        "url": "https://www.ethiowebs.com/ethiopian-names"
+      },
+      {
+        "kind": "name_reference",
+        "name": "AmharicTeacher Ethiopian Names",
+        "url": "https://amharicteacher.com/names"
+      }
+    ]
+  },
+  "male_name_pairs_extra": [
+    { "en": "ABRAHAM", "am": "አብርሃም" },
+    { "en": "ADAMU", "am": "አዳሙ" },
+    { "en": "ABIY", "am": "አቢይ" },
+    { "en": "AFEWORK", "am": "አፈወርቅ" },
+    { "en": "ASCHNAFI", "am": "አሽናፊ" },
+    { "en": "ASSEFA", "am": "አሰፋ" },
+    { "en": "CHERNET", "am": "ቸርነት" },
+    { "en": "DEMEKE", "am": "ደመቀ" },
+    { "en": "ESATU", "am": "እሳቱ" },
+    { "en": "FEKADU", "am": "ፈቃዱ" },
+    { "en": "FITSUM", "am": "ፍጹም" },
+    { "en": "GIRMA", "am": "ግርማ" },
+    { "en": "HAILE", "am": "ኃይሌ" },
+    { "en": "HIROOY", "am": "ህሩይ" },
+    { "en": "ISKINDER", "am": "እስክንድር" },
+    { "en": "MEKONNEN", "am": "መኮንን" },
+    { "en": "MENGISTU", "am": "መንግስቱ" },
+    { "en": "SEYOUM", "am": "ስዩም" },
+    { "en": "TEWODROS", "am": "ቴዎድሮስ" },
+    { "en": "WONDIMU", "am": "ወንድሙ" },
+    { "en": "YOHANES", "am": "ዮሐንስ" },
+    { "en": "YOFTAHE", "am": "ዮፍታሄ" }
+  ],
+  "female_name_pairs_extra": [
+    { "en": "ABRIHET", "am": "አብርሄት" },
+    { "en": "ADDIS", "am": "አዲስ" },
+    { "en": "ALEM", "am": "ዓለም" },
+    { "en": "BAREDU", "am": "ባሬዱ" },
+    { "en": "BEZAWIT", "am": "በዛዊት" },
+    { "en": "BILEN", "am": "ቢለን" },
+    { "en": "GELILA", "am": "ገሊላ" },
+    { "en": "MARTA", "am": "ማርታ" },
+    { "en": "RAHEL", "am": "ራሔል" },
+    { "en": "SENAF", "am": "ሰናፍ" },
+    { "en": "WOINSHET", "am": "ወይንሸት" }
+  ],
+  "second_name_pairs_extra": [
+    { "en": "JIHAD", "am": "ጅሃድ" },
+    { "en": "KASA", "am": "ካሣ" },
+    { "en": "SULTAN", "am": "ሱልጣን" },
+    { "en": "TESHOME", "am": "ተሾመ" }
+  ],
+  "third_name_pairs_extra": [
+    { "en": "BEDASSA", "am": "በዳሳ" },
+    { "en": "GUTE", "am": "ጉቴ" },
+    { "en": "JOBIR", "am": "ጆብር" },
+    { "en": "TAREKEGN", "am": "ታረቀኝ" }
+  ],
+  "cities_by_region_extra": {
+    "ADDIS ABABA": ["ARADA", "GULLELE", "KIRKOS", "YEKA"],
+    "AFAR": ["MILLE", "SEMERA"],
+    "AMHARA": ["DEBRE TABOR", "KOMBOLCHA", "LALIBELA", "SEKOTA"],
+    "BENISHANGUL GUMUZ": ["PAWE"],
+    "CENTRAL ETHIOPIA PEOPLE REGION": ["WOLISO"],
+    "SOMALI": ["KELAFO", "SHILABO", "WARDER"],
+    "GAMBELA": ["PIGNUDO"],
+    "OROMIA": ["ASENDABO", "DAMBI DOLO", "GINIR", "MOYALE", "NAZRET", "WELISO"],
+    "SIDAMA": ["IRGALLEM"],
+    "SOUTH ETHIOPIA PEOPLE REGION": ["SAWLA"],
+    "SOUTH WEST ETHIOPIA PEOPLE": ["TEPI"],
+    "TIGRAY": ["AXUM"]
+  },
+  "address_line1_pool_extra": [
+    "KABELE D",
+    "KABELE E",
+    "MERCATO",
+    "PIASSA",
+    "SEFER 04",
+    "SEFER 05",
+    "WOREDA 01",
+    "WOREDA 02",
+    "WOREDA 03"
+  ]
+}

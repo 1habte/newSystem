@@ -1,0 +1,15 @@
+{
+  "name": "appointment-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dependencies for the appointment bot workspace",
+  "main": "client.js",
+  "scripts": {
+    "start": "node client.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.6",
+    "uuid": "^13.0.0",
+    "ws": "^8.20.0"
+  }
+}
