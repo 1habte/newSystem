@@ -174,6 +174,7 @@ const a = {
 import { pdfclient, pdfclient2 } from "./pdfr.js";
 import { people } from "./ppl.js";
 import { getEthiopianDateISO } from "./utils.js";
+import { BASE_DIR } from "./handlers.js";
 
 export async function processInvoice(a,index,other, officeId, serviceType) {
  let   person = people[index]
@@ -217,7 +218,7 @@ const other1 ={
     "serviceType": serviceType,
 
 }
-const b64 = await pdfclient("C:\\Users\\habte\\Videos\\newSystem\\firstpdf.pdf",index,other1,officeId)
+const b64 = await pdfclient(`${BASE_DIR}\\firstpdf.pdf`,index,other1,officeId)
 a.$values[0].tgDTO.online_tgPersonDTOList[0].online_TGPersonIssuedDocumentDTOList[0].DocumentObject = b64
 a.$values[0].tgDTO.online_tgPersonDTOList[0].online_TGPersonIssuedDocumentDTOList[1].IssueDate = getEthiopianDateISO()
 

@@ -15,9 +15,11 @@ import { readFileSync } from "node:fs";
 import path from 'node:path';
 import { EtDatetime } from 'abushakir';
 
+export const BASE_DIR = String.raw`C:\Users\habte\Videos\newSystem`;
+
 const OFFICE_ID = 9;
 const SERVICE_TYPE = 915
-const GIVEN_SEQUENCE = "47009"
+const GIVEN_SEQUENCE = "41102"
 const APPLICATION_START_DATE = '2025-12-31T10:54:12.122'
 const AFTER_HOW_MANY_DAYS = 1
 const START_TIME = "08:00 AM"
@@ -187,7 +189,7 @@ async function updatesupportdocStep(ws, token) {
     let updatesupportdocB2b = objOfB.updatesupportdocB2b;
     updatesupportdocB2b.$values[0].tgPersonId = state.applicationDetails.enid;
     updatesupportdocB2b.$values[0].tgApplicationId = state.applicationDetails.apid;
-    const baseDir = String.raw`C:\\Users\\habte\\Videos\\newSystem\\cirt`;
+    const baseDir = path.join(BASE_DIR, 'cirt');
     const filePath = path.join(baseDir, `${state.currentPersonIndex}.jpg`);
     const b = readFileSync(filePath, 'base64');
     //console.log("here",b)

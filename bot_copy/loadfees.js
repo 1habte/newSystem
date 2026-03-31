@@ -302,6 +302,7 @@ import { pdfclient, pdfclient2, pdfclient3 } from "./pdfr.js";
 import { people } from "./ppl.js";
 import { objOfB } from "./b2bs.js";
 import { getEthiopianDateISO } from "./utils.js";
+import { BASE_DIR } from "./handlers.js";
 
 // the logic is same as passsave.js
 export async function processlsB2b(b,index,other, officeId, serviceType, documentOverride = null, personOverride = null){
@@ -393,13 +394,13 @@ const other1 =   {
 }
 const b64 = documentOverride !== null
     ? documentOverride
-    : await pdfclient("C:\\Users\\habte\\Videos\\newSystem\\firstpdf.pdf",index,other1,officeId)
+    : await pdfclient(`${BASE_DIR}\\firstpdf.pdf`,index,other1,officeId)
 const b63 = documentOverride !== null
     ? documentOverride
-    : await pdfclient2("C:\\Users\\habte\\Videos\\newSystem\\secondpdf.pdf",index,other1,officeId)
+    : await pdfclient2(`${BASE_DIR}\\secondpdf.pdf`,index,other1,officeId)
 
 if (documentOverride === null) {
-    await pdfclient3("C:\\Users\\habte\\Videos\\newSystem\\thirdpdf.pdf",index,other1,officeId)
+    await pdfclient3(`${BASE_DIR}\\thirdpdf.pdf`,index,other1,officeId)
 }
 a.$values[0].tgDTO.online_tgPersonDTOList[0].online_TGPersonIssuedDocumentDTOList[0].DocumentObject = b64
 a.$values[0].tgDTO.online_tgPersonDTOList[0].online_TGPersonIssuedDocumentDTOList[1].IssueDate = getEthiopianDateISO()

@@ -5,7 +5,10 @@ const path = require('path');
 
 // --- CONFIGURATION ---
 const BOT_TOKEN = '8633683144:AAHH2YiwL3kDL0s88aoVAY_ZmggFcYYs-XI'; 
-const SAVE_DIR = 'C:\\Users\\habte\\Videos\\newSystem\\cirt';
+import { BASE_DIR } from "./bot_copy/handlers.js";
+import path from "path";
+
+const SAVE_DIR = path.join(BASE_DIR, "cirt");
 
 const bot = new Telegraf(BOT_TOKEN);
 

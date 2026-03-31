@@ -3,6 +3,7 @@
 import { pdfclient } from "./pdfr.js";
 import { people } from "./ppl.js";
 import { getEthiopianDateISO } from "./utils.js";
+import { BASE_DIR } from "./handlers.js";
 
 
 
@@ -122,7 +123,7 @@ const other1 = {
 }
 const b64 = documentOverride !== null
     ? documentOverride
-    : await pdfclient("C:\\Users\\habte\\Videos\\newSystem\\firstpdf.pdf",index,other1,officeId)
+    : await pdfclient(`${BASE_DIR}\\firstpdf.pdf`,index,other1,officeId)
 //console.log("yooob64", b64)
 a.$values[0].online_tgPersonDTOList[0].online_TGPersonIssuedDocumentDTOList[0].DocumentObject = b64
 a.$values[0].online_tgPersonDTOList[0].online_TGPersonIssuedDocumentDTOList[1].IssueDate = getEthiopianDateISO()
