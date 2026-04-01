@@ -19,7 +19,7 @@ export const BASE_DIR = String.raw`C:\Users\habte\Videos\newSystem`;
 
 const OFFICE_ID = 9;
 const SERVICE_TYPE = 915
-const GIVEN_SEQUENCE = "41103"
+const GIVEN_SEQUENCE = "41105"
 const APPLICATION_START_DATE = '2025-12-31T10:54:12.122'
 const AFTER_HOW_MANY_DAYS = 1
 const START_TIME = "08:00 AM"

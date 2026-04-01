@@ -1,12 +1,11 @@
-const { Telegraf } = require('telegraf');
-const axios = require('axios');
-const fs = require('fs');
-const path = require('path');
+import { Telegraf } from 'telegraf';
+import axios from 'axios';
+import fs from 'fs';
+import path from 'path';
 
 // --- CONFIGURATION ---
 const BOT_TOKEN = '8633683144:AAHH2YiwL3kDL0s88aoVAY_ZmggFcYYs-XI'; 
 import { BASE_DIR } from "./bot_copy/handlers.js";
-import path from "path";
 
 const SAVE_DIR = path.join(BASE_DIR, "cirt");
 
