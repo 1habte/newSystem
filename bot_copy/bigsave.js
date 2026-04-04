@@ -19,7 +19,7 @@ const FAILED_LIST = [];
 const MAX_IN_FLIGHT = 8;
 const AFTER_HOW_MANY_DAYS = 2;
 const APPLICATION_START_DATE = "2025-12-31T10:54:12.122";
-const VERSION = "1.0.1.106";
+const VERSION = "1.0.1.108";
 const PING_INTERVAL = 3000;
 const WS_OPTIONS = {
   rejectUnauthorized: false,

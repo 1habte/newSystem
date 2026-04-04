@@ -17,11 +17,11 @@ import { EtDatetime } from 'abushakir';
 
 export const BASE_DIR = String.raw`C:\Users\habte\Videos\newSystem`;
 
-const OFFICE_ID = 9;
+const OFFICE_ID = 14;
 const SERVICE_TYPE = 915
-const GIVEN_SEQUENCE = "41105"
+const GIVEN_SEQUENCE = 60000
 const APPLICATION_START_DATE = '2025-12-31T10:54:12.122'
-const AFTER_HOW_MANY_DAYS = 1
+const AFTER_HOW_MANY_DAYS = 2
 const START_TIME = "08:00 AM"
 const END_TIME = "09:00 AM"
 
@@ -39,7 +39,7 @@ function getReferenceFromGivenSequence() {
     }
 
     const sequenceOffset = Math.max(0, state.currentPersonIndex - (state.initialPersonIndex ?? 0));
-    const sequenceValue = String(Number(GIVEN_SEQUENCE) + sequenceOffset);
+    const sequenceValue = Number(GIVEN_SEQUENCE) + sequenceOffset;
 
     const abbreviation = getActiveOffices().find(o => o.tgSystemOrganisationId === OFFICE_ID)?.Abbreviation;
 
@@ -71,8 +71,8 @@ export async function StartBooking(ws, startIndex, endIndex) {
 
 export async function loginStep(ws) {
     let loginB2b = objOfB.loginB2b;
-    loginB2b.$values[0].Username = "ChalaTolosa";
-    loginB2b.$values[0].ValidationPar = "ChalaTolosa@1234";
+    loginB2b.$values[0].Username = "1habte1";
+    loginB2b.$values[0].ValidationPar = "Habte@222004";
     
     await sendRequest(ws, "login", objOfJsons.loginj, loginB2b, null, "LOGIN");
 }

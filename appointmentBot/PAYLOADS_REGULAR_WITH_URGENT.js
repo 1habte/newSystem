@@ -164,7 +164,7 @@ const loadTgSupportingDocs = (appStartDate) => {
           ],
         },
         baseInternalReference: "PRE_LOGIN_DATA_INITIALIZATION",
-        version: "1.0.1.106",
+        version: "1.0.1.108",
       },
     ],
   };
@@ -201,7 +201,7 @@ const lockSlot = (userData) => {
             },
           ],
         },
-        version: "1.0.1.106",
+        version: "1.0.1.108",
       },
     ],
   };
@@ -787,7 +787,7 @@ const fullyPopulatedSaveDTO = (userData, documentObject) => {
             },
           ],
         },
-        version: "1.0.1.106",
+        version: "1.0.1.108",
       },
     ],
   };
@@ -829,7 +829,7 @@ const addFeeToApplicationPayment = (userData) => {
             },
           ],
         },
-        version: "1.0.1.106",
+        version: "1.0.1.108",
       },
     ],
   };
@@ -859,7 +859,7 @@ const updatePaymentInstructionDocument = (userData, documentObject) => {
             },
           ],
         },
-        version: "1.0.1.106",
+        version: "1.0.1.108",
       },
     ],
   };
@@ -893,7 +893,7 @@ const updateSupportingDocsGOV = (userData, governmentId) => {
             },
           ],
         },
-        version: "1.0.1.106",
+        version: "1.0.1.108",
       },
     ],
   };
@@ -927,7 +927,7 @@ const updateSupportingocsBirthCert = (userData) => {
             },
           ],
         },
-        version: "1.0.1.106",
+        version: "1.0.1.108",
       },
     ],
   };
@@ -982,7 +982,7 @@ const orderPortalPayment = (userData) => {
             },
           ],
         },
-        version: "1.0.1.106",
+        version: "1.0.1.108",
       },
     ],
   };
@@ -1546,7 +1546,7 @@ const loadFeesHash3 = (userData, documentObject) => {
             },
           ],
         },
-        version: "1.0.1.106",
+        version: "1.0.1.108",
       },
     ],
   };
@@ -1742,7 +1742,7 @@ const loadFinancialInvoicePayload = (userData, documentObject) => {
             },
           ],
         },
-        version: "1.0.1.106",
+        version: "1.0.1.108",
       },
     ],
   };

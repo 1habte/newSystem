@@ -8,11 +8,11 @@ import { state } from "./state.js";
 import { sendRequest, decryptB2BData, getEthiopianDateISO } from "./utils.js";
 
 const WS_URL = "wss://www.immigration.gov.et:18443";
-const OFFICE_ID = 11;
+const OFFICE_ID = 14;
 const SERVICE_TYPE = 915;
 const USERNAME = "JojoeB";
 const PASSWORD = "HAB@bil$guy2209te";
-const AFTER_HOW_MANY_DAYS = 1;
+const AFTER_HOW_MANY_DAYS = 2;
 const START_TIME = "08:00 AM";
 const END_TIME = "09:00 AM";
 const APPLICATION_START_DATE = "2025-12-31T10:54:12.122";

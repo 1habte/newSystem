@@ -1,3 +1,9 @@
 git add .
 git commit -m "Initial commit"
 git push -u origin main
+
+hawassa 41422
+bahirdar 20500
+woldia 9002
+dire dawa 8502
+hosseana 45262

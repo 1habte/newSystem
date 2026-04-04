@@ -30,7 +30,7 @@ const loginPayload = (personalData) => {
             },
           ],
         },
-        version: "1.0.1.106",
+        version: "1.0.1.108",
       },
     ],
   };
@@ -204,7 +204,7 @@ const loadTGSupportingDocumentConfigurationPayload = (personalData) => {
           ],
         },
         baseInternalReference: "PRE_LOGIN_DATA_INITIALIZATION",
-        version: "1.0.1.106",
+        version: "1.0.1.108",
       },
     ],
   };
@@ -242,7 +242,7 @@ const appointmentSearchPayload = (startDateStr, endDateStr, officeId) => {
           ],
         },
         baseInternalReference: "PRE_LOGIN_DATA_INITIALIZATION",
-        version: "1.0.1.106",
+        version: "1.0.1.108",
       },
     ],
   };
@@ -283,7 +283,7 @@ const appointmentSlotPayload = (dateStr, officeId, startTime, endTime) => {
         baseInternalReference: "PRE_LOGIN_DATA_INITIALIZATION",
         StartTime: startTime,
         EndTime: endTime,
-        version: "1.0.1.106",
+        version: "1.0.1.108",
       },
     ],
   };
@@ -323,7 +323,7 @@ const lockAppointmentPayload = (slotData, personId) => {
             },
           ],
         },
-        version: "1.0.1.106",
+        version: "1.0.1.108",
       },
     ],
   };
@@ -357,7 +357,7 @@ const loadSequencePayload = (officeId = 86) => {
             },
           ],
         },
-        version: "1.0.1.106",
+        version: "1.0.1.108",
       },
     ],
   };
@@ -402,7 +402,7 @@ const healthCheckPayload = () => {
             },
           ],
         },
-        version: "1.0.1.106",
+        version: "1.0.1.108",
       },
     ],
   };
@@ -703,7 +703,7 @@ const saveApplicationPayload = (userCredentials, documentObject) => {
             },
           ],
         },
-        version: "1.0.1.106",
+        version: "1.0.1.108",
       },
     ],
   };
@@ -742,7 +742,7 @@ const updatePaymentInstructionDocumentPayload = (
             },
           ],
         },
-        version: "1.0.1.106",
+        version: "1.0.1.108",
       },
     ],
   };
@@ -799,7 +799,7 @@ const paymentOrderPortalPayload = (personalData, customerCode, orderId) => {
             },
           ],
         },
-        version: "1.0.1.106",
+        version: "1.0.1.108",
       },
     ],
   };
@@ -1358,7 +1358,7 @@ const loadFeesHash3 = (userData, documentObject) => {
             },
           ],
         },
-        version: "1.0.1.106",
+        version: "1.0.1.108",
       },
     ],
   };
@@ -1558,7 +1558,7 @@ const loadFinancialInvoicePayload = (userData, documentObject) => {
             },
           ],
         },
-        version: "1.0.1.106",
+        version: "1.0.1.108",
       },
     ],
   };
@@ -1605,7 +1605,7 @@ const addFeeToApplicationPaymentPayload = (
             },
           ],
         },
-        version: "1.0.1.106",
+        version: "1.0.1.108",
       },
     ],
   };
